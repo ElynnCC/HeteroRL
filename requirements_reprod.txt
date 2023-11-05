@@ -1,0 +1,11 @@
+black
+isort
+jupyter
+jupyterlab-code-formatter
+numpy==1.24.2
+scikit-learn==1.2.2
+pandas
+scipy
+seaborn
+statsmodels
+torch
