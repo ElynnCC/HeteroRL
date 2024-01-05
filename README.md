@@ -45,10 +45,16 @@ jupyter:
 With folder in the same directory,
 :::
 
-::: {#342196bb-2922-4dc9-8d3a-c330f4861600 .cell .code}
+::: {#342196bb-2922-4dc9-8d3a-c330f4861600 .cell .code execution_count="3"}
 ``` python
 from hetero import *
+import hetero
+algo.beta_from_linreg
 ```
+
+::: {.output .execute_result execution_count="3"}
+    <function hetero.algo.beta_from_linreg(data, Z, U, discount)>
+:::
 :::
 
 ::: {#a21d5228-812b-4244-b97e-3e8e918143a0 .cell .markdown}
